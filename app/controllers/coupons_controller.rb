@@ -13,6 +13,7 @@ class CouponsController < ApplicationController
   end 
   
   def show 
+    @coupon = Coupon.find()
   end 
   
 end 
